@@ -13,20 +13,11 @@ body {
    font-optical-sizing: auto; 
    font-weight: 400; 
    font-style: normal;
-   font-size: 1.2em;
-   line-height: 4.5;
    letter-spacing: 1.2em;
    position: relative;
-   display: inline-block;
+   border-bottom: solid 3px rgb(115,115,114);
    letter-spacing: 1.5;
    text-decoration: underline;
-}
-.google-fonts::after{
-   content: "";
-   position: absolute;
-   left: 0;
-   bottom: 0;
-   border-bottom: 1px solid rgb(115,115,114)
 }
 html {
    font-size: 20px;
@@ -47,4 +38,5 @@ h1::first-letter {
 }
 .google-fonts{
    text-shadow: 1px 1px 2px gray;
+
 }
