@@ -14,10 +14,7 @@ body {
    font-weight: 400; 
    font-style: normal;
    letter-spacing: 1.2em;
-   position: relative;
    border-bottom: solid 3px rgb(115,115,114);
-   letter-spacing: 1.5;
-   text-decoration: underline;
 }
 html {
    font-size: 20px;
@@ -25,7 +22,6 @@ html {
 }
 h1::first-letter {
    color: skyblue;
-   line-height: 4.5em;
 } 
 .text-pink {
    color: rgb(255,192,203);
