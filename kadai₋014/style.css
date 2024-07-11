@@ -15,14 +15,15 @@ body {
    font-style: normal;
    letter-spacing: 1.2em;
    border-bottom: solid 3px rgb(115,115,114);
-}
-html {
-   font-size: 20px;
-   text-align: center;
+   font-size: 2rem;
 }
 h1::first-letter {
    color: skyblue;
 } 
+html {
+   font-size: 20px;
+   text-align: center;
+}
 .text-pink {
    color: rgb(255,192,203);
 }
@@ -34,5 +35,8 @@ h1::first-letter {
 }
 .google-fonts{
    text-shadow: 1px 1px 2px gray;
-
 }
+html{
+   font-size: 16px;
+}
+
