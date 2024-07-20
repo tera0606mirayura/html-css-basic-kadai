@@ -26,7 +26,7 @@ main{
     flex-direction: row; 
 }
 .contents{
-    border: 3px solid rgb(236, 122, 122);
+    border: 3px solid rgb(236, 204, 204);
     flex-basis: 25%;
     padding: 10px 15px;
     margin: 20px 0;
@@ -64,7 +64,7 @@ a:hover{
 body{
     margin: 0;
 }
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
     h2 {
         font-family: 30px;
     }
